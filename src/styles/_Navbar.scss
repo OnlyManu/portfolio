@@ -1,0 +1,50 @@
+@import "./variables";
+
+.navbar {
+ 
+  width: 100%;
+  position: fixed;
+  background-color: $millbrook;
+  height: 60px;
+  color: #fff;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .madisonKramerDev {
+    justify-content: flex-start;
+    padding-left: 20px;
+    .name {
+      position: relative;
+      top: 8px;
+      font-family: "Manrope", sans-serif;
+      font-size: 20px;
+    }
+    .dev {
+      color: $carouselPink;
+      font-size: 14px;
+      position: relative;
+      bottom: 16px;
+    }
+  }
+  .anchorLinks {
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 500;
+    ul {
+      display: flex;
+      height: 100%;
+      padding-right: 34px;
+      li {
+        list-style-type: none;
+        width: 130px;
+        transition-duration: 350ms;
+        height: 100%;
+        &:hover {
+          transform: scale(1.15);
+          color: $carouselPink;
+        }
+      }
+    }
+  }
+}

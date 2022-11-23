@@ -1,0 +1,53 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: #583532;
+  height: 60px;
+  color: #fff;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .madisonKramerDev {
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+.navbar .madisonKramerDev .name {
+  position: relative;
+  top: 8px;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+}
+.navbar .madisonKramerDev .dev {
+  color: #fce4ec;
+  font-size: 14px;
+  position: relative;
+  bottom: 16px;
+}
+.navbar .anchorLinks {
+  justify-content: flex-end;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar .anchorLinks ul {
+  display: flex;
+  height: 100%;
+  padding-right: 34px;
+}
+.navbar .anchorLinks ul li {
+  list-style-type: none;
+  width: 130px;
+  transition-duration: 350ms;
+  height: 100%;
+}
+.navbar .anchorLinks ul li:hover {
+  transform: scale(1.15);
+  color: #fce4ec;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
