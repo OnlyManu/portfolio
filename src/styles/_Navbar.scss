@@ -1,9 +1,9 @@
 @import "./variables";
 
 .navbar {
- 
   width: 100%;
   position: fixed;
+  top: 0;
   background-color: $millbrook;
   height: 60px;
   color: #fff;
@@ -34,12 +34,13 @@
     ul {
       display: flex;
       height: 100%;
-      padding-right: 34px;
+      margin-right: 34px;
       li {
         list-style-type: none;
         width: 130px;
-        transition-duration: 350ms;
+        transition-duration: 250ms;
         height: 100%;
+        cursor: pointer;
         &:hover {
           transform: scale(1.15);
           color: $carouselPink;

@@ -1,0 +1,60 @@
+.whoIAm {
+  padding-top: 80px;
+  height: 90vh;
+  .sectionTitle {
+    font-size: 26px;
+    color: $millbrook;
+    h2 {
+      font-weight: 400;
+    }
+  }
+  .presentationContainer {
+    padding: 20px 0px;
+    display: flex;
+    .picSection {
+      .profilePic {
+        width: 330px;
+        padding: 0px 40px;
+      }
+    }
+    .presentation {
+      padding: 0px 20px;
+      .presentationP{
+        text-align: start;
+        color: $millbrook;
+        font-weight: 500;
+      }
+      .downloadCVButton button {
+        margin: 74px;
+        background-color: $millbrook;
+        color: #fff;
+        padding: 6px 60px;
+        border-style: none;
+        border-radius: 50px;
+        font-family: 'Raleway';
+        transition-duration: 350ms;
+        cursor: pointer;
+        &:hover{
+          color: $millbrook;
+          background-color: $carouselPink;
+          font-weight: 700;
+          scale: 1.08;
+        }
+      }
+    }
+  }
+  .mediaIcons{
+    display: flex;
+    margin: 50px 120px;
+    .icons{
+      margin-left: 20px;
+      color: $millbrook;
+      font-size: 26px;
+      cursor: pointer;
+      transition-duration: 150ms;
+      &:hover{
+        scale: 1.3;
+      }
+    }
+  }
+}
