@@ -5,11 +5,22 @@ import { projectsList } from "../datas/projectsList";
 const Projects = () => {
   //Render
   return (
-    <div className="projectList">
-      {projectsList.map((proj) => (
-        <li key={proj.id}> {proj.name} </li>
-      ))}
-    </div>
+    <section className="projectsSection">
+      <div className="sectionTitle">
+        <h2>Mes Projets</h2>
+      </div>
+      <div className="projectList">
+        {projectsList.map((proj) => (
+          <div className="project" key={proj.id}>
+            <h2 className="projectTitle">{proj.name}</h2>
+            <img className="projectImg" src={proj.cover} alt=""></img>
+            
+            <p className="projectDescription">{proj.description}</p>
+            <div className="projectTechno"></div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 

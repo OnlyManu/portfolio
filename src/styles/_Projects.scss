@@ -1,0 +1,34 @@
+.projectsSection{
+    .projectList{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        .project{
+            margin: 10px 70px;
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            box-shadow: 3px 5px 5px #36323261;
+            width: 250px;
+            height: 250px;
+            &:hover{
+                cursor: pointer;
+            }
+           .projectImg{
+            object-fit: cover;
+            border-bottom: 1px solid #DEDEDE;
+           }
+           .projectTitle{
+            border-radius:10px 10px 0px 0px;
+            margin: 0px;
+            padding: 4px;
+            color: #fff;
+            background-color: $millbrook;
+           }
+           .projectDescription{
+            font-size: 14px;
+            color: $millbrook;
+            
+           }
+        }
+    }
+}

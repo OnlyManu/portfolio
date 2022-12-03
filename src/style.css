@@ -52,13 +52,6 @@
   padding-top: 80px;
   height: 90vh;
 }
-.whoIAm .sectionTitle {
-  font-size: 26px;
-  color: #583532;
-}
-.whoIAm .sectionTitle h2 {
-  font-weight: 400;
-}
 .whoIAm .presentationContainer {
   padding: 20px 0px;
   display: flex;
@@ -107,8 +100,47 @@
   scale: 1.3;
 }
 
+.projectsSection .projectList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.projectsSection .projectList .project {
+  margin: 10px 70px;
+  border: 1px solid #DEDEDE;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(54, 50, 50, 0.3803921569);
+  width: 250px;
+  height: 250px;
+}
+.projectsSection .projectList .project:hover {
+  cursor: pointer;
+}
+.projectsSection .projectList .project .projectImg {
+  object-fit: cover;
+  border-bottom: 1px solid #DEDEDE;
+}
+.projectsSection .projectList .project .projectTitle {
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px;
+  padding: 4px;
+  color: #fff;
+  background-color: #583532;
+}
+.projectsSection .projectList .project .projectDescription {
+  font-size: 14px;
+  color: #583532;
+}
+
 body {
   font-family: "Raleway", sans-serif;
+}
+body .sectionTitle {
+  font-size: 26px;
+  color: #583532;
+}
+body .sectionTitle h2 {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
