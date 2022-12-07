@@ -21,41 +21,47 @@ export const projectsList = [
         id: 1,
         cover: groupomania,
         description: "Full Stack | Création d'un réseau social d'entreprise dans son intégralité.",
-        techno: [html , sass , js , nodejs , mysql , reactjs]
+        techno: [html , sass , js , nodejs , mysql , reactjs],
+        link: "https://github.com/MadyKramer/groupomania"
     },
     {
         name: 'Hot Takes',
         id: 2,
         cover: hottakes,
         description: "Back-end | Création d'une application web afin que les utilisateurs puissent noter des sauces piquantes",
-        techno: [js , nodejs , mongodb ]
+        techno: [js , nodejs , mongodb ],
+        link: "https://github.com/MadyKramer/HotTakes"
     },
     {
         name: 'Kanap',
         id: 3,
         cover: kanap,
         description: "Front-End | Création de la partie font en JavaScript d'un site e-commerce",
-        techno: [js]
+        techno: [js],
+        link: "https://github.com/MadyKramer/Kanap"
     },
     {
         name: 'La Panthère',
         id: 4,
         cover: lapanthere,
         description: "SEO | Amélioration du référencement et de l'accessibilité",
-        techno: [html , css]
+        techno: [html , css],
+        link: "https://github.com/MadyKramer/P4"
     },
     {
         name: 'OhMyFood!',
         id: 5,
         cover: ohmyfood,
         description: "Front-End | Création à partir de maquettes d'un site de réservation de menu en ligne",
-        techno: [html , css , sass]
+        techno: [html , css , sass],
+        link:"https://github.com/MadyKramer/P3"
     },
     {
         name: 'Booki',
         id: 6,
         cover: booki,
         description: "Front-End | Création à partir de maquettes d'un site de plannification de vacances",
-        techno: [html , css]
+        techno: [html , css],
+        link:"https://github.com/MadyKramer/Projet2"
     }
 ]

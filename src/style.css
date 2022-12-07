@@ -105,6 +105,9 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.projectsSection .projectList .projectGitLink {
+  text-decoration: none;
+}
 .projectsSection .projectList .project {
   display: flex;
   flex-direction: column;
@@ -114,10 +117,12 @@
   border-radius: 10px;
   box-shadow: 3px 5px 5px rgba(54, 50, 50, 0.3803921569);
   width: 250px;
-  height: 250px;
+  height: 260px;
+  transition-duration: 300ms;
+  cursor: pointer;
 }
 .projectsSection .projectList .project:hover {
-  cursor: pointer;
+  transform: scale(1.1);
 }
 .projectsSection .projectList .project .projectImg {
   object-fit: cover;
@@ -131,14 +136,15 @@
   background-color: #583532;
 }
 .projectsSection .projectList .project .projectDescription {
+  padding: 2px;
   font-size: 14px;
   color: #583532;
+  height: 50px;
 }
 .projectsSection .projectList .project .projectTechno {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 4px;
+  padding: 4px;
 }
 .projectsSection .projectList .project .projectTechno .technos {
   width: 20px;
