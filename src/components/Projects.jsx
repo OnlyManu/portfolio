@@ -1,8 +1,9 @@
 import { projectsList } from "../datas/projectsList";
 
-//State
-//Comportement
 const Projects = () => {
+  //State
+  //Comportement
+
   //Render
   return (
     <section className="projectsSection">
@@ -12,11 +13,22 @@ const Projects = () => {
       <div className="projectList">
         {projectsList.map((proj) => (
           <div className="project" key={proj.id}>
-            <h2 className="projectTitle">{proj.name}</h2>
-            <img className="projectImg" src={proj.cover} alt=""></img>
             
-            <p className="projectDescription">{proj.description}</p>
-            <div className="projectTechno"></div>
+            <div className="projectInfo">
+              <h2 className="projectTitle">{proj.name}</h2>
+              <img className="projectImg" src={proj.cover} alt=""></img>
+              <p className="projectDescription">{proj.description}</p>
+            </div>
+            <div className="projectTechno">
+              {proj.techno.map((tech, index) => (
+                <img
+                  className="technos"
+                  key={index}
+                  src={tech}
+                  alt="languages used"
+                ></img>
+              ))}
+            </div>
           </div>
         ))}
       </div>

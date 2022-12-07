@@ -4,6 +4,9 @@
         justify-content: space-around;
         flex-wrap:wrap;
         .project{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             margin: 10px 70px;
             border: 1px solid #DEDEDE;
             border-radius: 10px;
@@ -28,6 +31,16 @@
             font-size: 14px;
             color: $millbrook;
             
+           }
+           .projectTechno{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 4px;
+            .technos {
+                width: 20px;
+                margin: 0px 4px;
+            }
            }
         }
     }
