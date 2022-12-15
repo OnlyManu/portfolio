@@ -151,6 +151,27 @@
   margin: 0px 4px;
 }
 
+.contactSection .contactContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 9%;
+}
+.contactSection .contactContainer .contactIcons {
+  margin: 1%;
+  border-radius: 25px;
+  padding: 2%;
+  width: 70%;
+  color: #fff;
+  font-size: 50px;
+  background-color: #583532;
+  transition-duration: 300ms;
+}
+.contactSection .contactContainer .contactIcons:hover {
+  background-color: #fce4ec;
+  color: #583532;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }

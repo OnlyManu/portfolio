@@ -1,8 +1,10 @@
 .projectsSection{
+ 
     .projectList{
         display: flex;
         justify-content: space-around;
         flex-wrap:wrap;
+       
         .projectGitLink{
             text-decoration: none;
         }

@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import WhoIAm from "./components/WhoIAm";
 import Projects from "./components/Projects";
-
+import Contact from "./components/Contact";
 import './App.css';
 import './style.css';
 
@@ -11,7 +11,8 @@ function App() {
     < Navbar />
     < WhoIAm />
     < Projects />
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    < Contact />
+   
     </div>
   );
 }

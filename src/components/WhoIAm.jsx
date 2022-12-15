@@ -1,7 +1,5 @@
 import profilepic from "./../assets/profilePic.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 //State
 
@@ -37,11 +35,7 @@ const WhoIAm = () => {
           </div>
         </div>
       </div>
-      <div className="mediaIcons">
-        <FontAwesomeIcon icon={faLinkedin} className="icons" />
-        <FontAwesomeIcon icon={faGithub} className="icons" />
-        <FontAwesomeIcon icon={faEnvelope} className="icons" />
-      </div>
+      
     </section>
   );
 };

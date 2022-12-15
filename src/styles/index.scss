@@ -2,6 +2,7 @@
 @import './Navbar';
 @import './WhoIAm';
 @import './Projects';
+@import './Contact';
 
 
 
@@ -11,6 +12,7 @@ body{
         font-size: 26px;
         color: $millbrook;
         h2 {
+
           font-weight: 400;
         }
       }
