@@ -1,5 +1,5 @@
 import profilepic from "./../assets/profilePic.png";
-
+import cv from "./../assets/cv.pdf"
 
 //State
 
@@ -31,7 +31,7 @@ const WhoIAm = () => {
             </p>
           </div>
           <div className="downloadCVButton">
-            <button>Telecharger mon CV</button>
+            <a href={cv} download className="downloadCVButton"> Téléchargez mon CV! </a>
           </div>
         </div>
       </div>
