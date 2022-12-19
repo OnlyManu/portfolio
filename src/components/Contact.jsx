@@ -9,15 +9,21 @@ const Contact = () => {
         <h2>Contact</h2>
       </div>
       <div className="contactContainer">
-        <div className="githubContainer contactIcons">
-          <FontAwesomeIcon icon={faLinkedin} className="icons" />
-        </div>
-        <div className="emailContainer contactIcons">
-          <FontAwesomeIcon icon={faGithub} className="icons" />
-        </div>
-        <div className="linkedinContainer contactIcons">
-          <FontAwesomeIcon icon={faEnvelope} className="icons" />
-        </div>
+        <a href="https://www.linkedin.com/in/madison--kramer/">
+          <div className="contactIcons">
+            <FontAwesomeIcon icon={faLinkedin} className="icons" />
+          </div>
+        </a>
+        <a href="https://github.com/MadyKramer">
+          <div className=" contactIcons">
+            <FontAwesomeIcon icon={faGithub} className="icons" />
+          </div>
+        </a>
+        <a href="mailto: Madison-CF@hotmail.fr">
+          <div className="contactIcons">
+            <FontAwesomeIcon icon={faEnvelope} className="icons" />
+          </div>
+        </a>
       </div>
     </section>
   );

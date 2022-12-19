@@ -32,12 +32,13 @@
           border-style: none;
           border-radius: 15px;
           font-family: "Raleway";
-          transition-duration: 350ms;
+          transition-duration: 300ms;
           cursor: pointer;
           &:hover {
             color: $millbrook;
             background-color: $carouselPink;
             font-weight: 700;
+            scale: 1.1;
           }
         }
       }

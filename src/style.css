@@ -83,13 +83,14 @@
   border-style: none;
   border-radius: 15px;
   font-family: "Raleway";
-  transition-duration: 350ms;
+  transition-duration: 300ms;
   cursor: pointer;
 }
 .whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink:hover {
   color: #583532;
   background-color: #fce4ec;
   font-weight: 700;
+  scale: 1.1;
 }
 .whoIAm .mediaIcons {
   display: flex;
@@ -170,7 +171,7 @@
   margin: 1%;
   border-radius: 25px;
   padding: 2%;
-  width: 70%;
+  padding: 30px 600px;
   color: #fff;
   font-size: 50px;
   background-color: #583532;
