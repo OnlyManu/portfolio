@@ -31,7 +31,7 @@ const WhoIAm = () => {
             </p>
           </div>
           <div className="downloadCVButton">
-            <a href={cv} download className="downloadCVButton"> Téléchargez mon CV! </a>
+            <a href={cv} download className="downloadCVLink">Téléchargez mon CV!</a>
           </div>
         </div>
       </div>

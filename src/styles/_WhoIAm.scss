@@ -12,41 +12,47 @@
     }
     .presentation {
       padding: 0px 20px;
-      .presentationP{
+      .presentationP {
         text-align: start;
         color: $millbrook;
         font-weight: 500;
       }
-      .downloadCVButton { //
-        margin: 16%;
-        font-size: 16px;
-        background-color: $millbrook;
-        color: #fff;
-        padding: 15px 40px;
-        border-style: none;
-        border-radius: 15px;
-        font-family: 'Raleway';
-        transition-duration: 350ms;
-        cursor: pointer;
-        &:hover{
-          color: $millbrook;
-          background-color: $carouselPink;
-          font-weight: 700;
-          scale: 1.1;
+      .downloadCVButton {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        .downloadCVLink {
+          //
+          margin-top: 15%;
+          text-decoration: none;
+          font-size: 16px;
+          background-color: $millbrook;
+          color: #fff;
+          padding: 15px 40px;
+          border-style: none;
+          border-radius: 15px;
+          font-family: "Raleway";
+          transition-duration: 350ms;
+          cursor: pointer;
+          &:hover {
+            color: $millbrook;
+            background-color: $carouselPink;
+            font-weight: 700;
+          }
         }
       }
     }
   }
-  .mediaIcons{
+  .mediaIcons {
     display: flex;
     margin: 50px 120px;
-    .icons{
+    .icons {
       margin-left: 20px;
       color: $millbrook;
       font-size: 26px;
       cursor: pointer;
       transition-duration: 150ms;
-      &:hover{
+      &:hover {
         scale: 1.3;
       }
     }

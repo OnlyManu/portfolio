@@ -1,20 +1,19 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
 import WhoIAm from "./components/WhoIAm";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import './App.css';
-import './style.css';
+import "./App.css";
+import "./style.css";
 
 function App() {
   return (
     <div className="App">
-    < Navbar />
-    < WhoIAm />
-    < Projects />
-    < Contact />
-   
+      <Navbar />
+      <WhoIAm />
+      <Projects />
+      <Contact />
     </div>
   );
 }

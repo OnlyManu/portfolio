@@ -69,7 +69,13 @@
   font-weight: 500;
 }
 .whoIAm .presentationContainer .presentation .downloadCVButton {
-  margin: 16%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+.whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink {
+  margin-top: 15%;
+  text-decoration: none;
   font-size: 16px;
   background-color: #583532;
   color: #fff;
@@ -80,11 +86,10 @@
   transition-duration: 350ms;
   cursor: pointer;
 }
-.whoIAm .presentationContainer .presentation .downloadCVButton:hover {
+.whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink:hover {
   color: #583532;
   background-color: #fce4ec;
   font-weight: 700;
-  scale: 1.1;
 }
 .whoIAm .mediaIcons {
   display: flex;
@@ -152,6 +157,9 @@
   margin: 0px 4px;
 }
 
+.contactSection {
+  margin-top: 8%;
+}
 .contactSection .contactContainer {
   display: flex;
   align-items: center;
