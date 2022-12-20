@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { useEffect, useState } from "react";
 //States
 
 //Comportement
@@ -15,6 +18,9 @@ const Navbar = () => {
             <li>Projets</li>
             <li>Contact</li>
         </ul>
+    </div>
+    <div className="anchorLinks__responsive">
+    <FontAwesomeIcon icon={faBars} className="iconNavBar" />
     </div>
   </nav>;
 };
