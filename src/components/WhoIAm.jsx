@@ -7,7 +7,7 @@ import cv from "./../assets/cv.pdf"
 const WhoIAm = () => {
   //Render
   return (
-    <section className="whoIAm">
+    <section className="whoIAm" id="whoIAmSection">
       <div className="sectionTitle">
         <h2>Qui suis-je?</h2>
       </div>
