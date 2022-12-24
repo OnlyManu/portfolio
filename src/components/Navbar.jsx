@@ -16,9 +16,9 @@ const Navbar = () => {
       </div>
         <div className="anchorLinks">
           <ul>
-            <li>Qui suis-je?</li>
-            <li>Projets</li>
-            <li>Contact</li>
+            <li><a href="#whoIAmSection">Qui suis-je?</a></li>
+            <li><a href="#projetsSection">Projets</a></li>
+            <li><a href="#contactSection">Contact</a></li>
           </ul>
         </div>
       <div className="anchorLinks__responsive">
